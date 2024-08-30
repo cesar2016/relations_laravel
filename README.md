@@ -8,10 +8,8 @@ Se genero esta aplicacion con el sentido de poder colaborar de una forma mas rap
 
 
 <hr> 
-<p align="center">
-    <a href="https://i.ibb.co/sKQnkr1/Whats-App-Image-2022-01-27-at-3-45-28-PM.jpg"><img src="https://i.ibb.co/hHQghvg/Whats-App-Image-2022-01-27-at-3-44-33-PM.jpg" alt="Whats-App-Image-2022-01-27-at-3-44-33-PM" border="0"></a>
-
-</p>
+<p align="center"><a href="#">
+    <img src="https://freeimage.host/i/dw6mAbI" width="400"></a></p>
 <hr>
 <p align="center">
    <a href="https://ibb.co/Qvx1GJw"><img src="https://i.ibb.co/23pfBF4/Whats-App-Image-2022-01-27-at-3-43-49-PM.jpg" alt="Whats-App-Image-2022-01-27-at-3-43-49-PM" border="0"></a>
