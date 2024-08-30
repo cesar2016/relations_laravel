@@ -37,7 +37,7 @@ Se genero esta aplicacion con el sentido de poder colaborar de una forma mas rap
  
  ## RECURSOS UTILIZADOS
  - Maquetacion HTML con Bootstraps 4 vinculado con CDN. 
- - Lenguaje utilizado: Java Scrip - Libreria: JQuery 
+ - Lenguaje utilizado: JavaScrip - Libreria: JQuery 
  - Uso de EM6: arrow functions, descontractoring, import and export, POO .
  
  - Ambos proyectos corren dentro de contenedores Docker.
