@@ -8,32 +8,28 @@ Se genero esta aplicacion con el sentido de poder colaborar de una forma mas rap
 
 
 <hr> 
-<p align="center"><a href="#">
-    <img src="https://freeimage.host/i/dw6mAbI" width="400"></a></p>
-<hr>
 <p align="center">
-   <a href="https://ibb.co/Qvx1GJw"><img src="https://i.ibb.co/23pfBF4/Whats-App-Image-2022-01-27-at-3-43-49-PM.jpg" alt="Whats-App-Image-2022-01-27-at-3-43-49-PM" border="0"></a>
-
+    <a href="#">
+        <img src="https://i.postimg.cc/Y2GQYM1X/Captura-desde-2024-08-30-11-31-23.png">
+    </a>
 </p>
 <hr>
-
 <p align="center">
-    <a href="https://ibb.co/bvF7xTC"><img src="https://i.ibb.co/B6GwmbQ/Whats-App-Image-2022-01-27-at-3-47-47-PM.jpg" alt="Whats-App-Image-2022-01-27-at-3-47-47-PM" border="0"></a>
-   
+    <a href="#">
+        <img src="https://i.postimg.cc/L4cLVwDm/Captura-desde-2024-08-30-11-32-35.png">
+    </a>
 </p>
-
-<hr> 
+<hr>
 <p align="center">
-     <img src="https://i.postimg.cc/tgj0TtTh/Whats-App-Image-2023-02-14-at-5-56-54-PM.jpg" border="0"> 
-    
-</p>  
+    <a href="#">
+        <img src="https://i.postimg.cc/8sgprhhV/Captura-desde-2024-08-30-11-33-31.png">
+    </a>
+</p>
+<hr>
 <p align="center">
-     <img src="https://i.postimg.cc/SsgHDBGr/Whats-App-Image-2023-02-14-at-5-58-42-PM.jpg" border="0"> 
-    
-</p> 
-<p align="center">
-     <img src="https://i.postimg.cc/zfjQGs4r/Whats-App-Image-2023-02-14-at-6-01-33-PM.jpg" border="0"> 
-    
+    <a href="#">
+        <img src="....">
+    </a>
 </p>
   
  
