@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Relaciones Laravel</title>
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/monokai-sublime.min.css'>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js'></script>
+
+   
+  
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- Sección de Header -->
+      <header>
+       <!-- Sección de Nav -->
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Relaciones en Laravel</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+             
+          </div><!-- /.container-fluid -->
+        </nav><!-- Fin Sección de Nav -->
+      </header><!-- Fin Sección de Header -->
+    </div>
+  </div>
+
+  <!-- Sección Jumbotron -->
+  <div class="container">
+     
+    <div class="jumbotron">
+        <h1>Relaciones con Laravel</h1>
+        <p>App para generar relaciones entre entidades de modelos en Laravel</p>
+        <hr> 
+
+        <form id="form_relations">
+          <div class="col-md-4" style="border: 1px solid; border-color: black; align-items: center;">
+            <div class="row">
+              <p></p>
+              <div class="form-group col-md-6">
+                <label for="inputZip">Model 1</label>
+                <input type="text" class="form-control" id="model_1">
+              </div>
+            </div>
+            <div id="div_model_pivote" class="row  bg-danger">
+              <div class="form-group col-md-6 ">
+                <h3>Pivote</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="inputZip">Model 2</label>
+                <input type="text" class="form-control" id="model_2">
+              </div>
+            </div>
+          </div> 
+          
+          <div class="col-md-8" style="border: 1px solid; border-color: black; margin-bottom: 5px;">
+
+            <div class="col-md-6">
+
+              <div class="row">
+                <p></p>
+                <div class="form-row">             
+                  <div class="form-group col-md-6">
+                    <label for="inputState">De Relacion</label>
+                    <select id="relac_1" class="form-control">
+                      <option value="" selected>Elegir ...</option>
+                      <option value="hasOne" >UN/A</option>
+                      <option value="hasMany">MUCHOS</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputZip">Tabla BD 1</label>
+                    <input type="text" class="form-control" id="table_1">
+                  </div>
+                </div> 
+              </div>
+
+              <div id="div_table_db_pivote" class="row bg-danger">               
+                <div class="form-group col-md-12">
+                  <label for="inputZip">Tabla DB Pivote <small>(Alfab y singular)</small></label>
+                  <input type="text" class="form-control" id="table_db_pivote">
+                </div> 
+              </div>
+                
+              <div class="row">       
+                <div class="form-row">            
+                  <div class="form-group col-md-6">
+                    <label for="inputState">A Relacion</label>
+                    <select id="relac_2" class="form-control">
+                      <option value="" selected>Elegir ...</option>
+                      <option value="hasOne">UN/A</option>
+                      <option value="hasMany">MUCHOS</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputZip">Tabla BD 2</label>
+                    <input type="text" class="form-control" id="table_2">
+                  </div>
+                </div>
+              </div> 
+            </div>
+              <div class="col-md-6">
+                <p id="type_relation_title"></p>
+              </div>
+          </div>
+          <button class="btn btn-primary btn-lg" id="btn-form" type="submit">ENVIAR</button>
+        </form>
+       
+    </div>
+  </div><!-- Fin Sección Jumbotron -->
+
+  <div class="container" style="padding: 15px 10px;">
+    <div class="row">             
+      <div class="col-md-6">
+         
+          <h3 id="text_model_1"></h3>
+          <span id="code_model_1"></span>
+        
+      </div>
+                
+      <div class="col-md-6">
+         
+          <h3 id="text_model_2"></h3> 
+          <span id="code_model_2"></span>          
+        
+      </div>
+    </div>    
+  </div>
+
+  <!-- Cogido para la Migracion -->
+  <div class="container" style="padding: 15px 10px;">
+    <div class="row">
+      <h3 id="name_migration"></h3>      
+      <div class="col-md-12">        
+          <span id="code_migration"></span>         
+      </div>
+    </div>
+    <hr>
+  </div><!-- Sección de Multimedia -->
+
+  <!-- Sección Pie de Página -->
+  <footer class="footer-basic-centered">
+    <p class="footer-company-motto">Desarrolled by Cesar R Sanchez</p>
+    <p class="footer-derechos">Todos los Derechos e Izquierdos Reservados &copy; 2024</p>
+  </footer><!-- Fin Sección Pie de Página -->
+
+
+<!-- Librerías y Archivos JS-->
+<script src="my_js/testing.js" type="module"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<!-- Bootstrap Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<!-- and it's easy to individually load additional languages -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+<script>hljs.highlightAll();</script>
+
+</body>
+</html>
