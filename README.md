@@ -4,7 +4,8 @@
 <p align="center"> 
 <h1> RELACIONES EN LARAVEL </h1> 
 </p>
-## SOBRE ESTE PROYECTO API REST FULL CON LARAVEL 
+## SOBRE ESTE PROYECTO
+
 Se genero esta aplicacion con el sentido de poder colaborar de una forma mas rapida en la generacion de relaciones entre tablas y modelos de laravel. A travez de ingresar en un muy sencillo formulario los datos de tablas y modelos involucrados y tambien definiendo el tipo de relacion que pretendemos, conseguiriamos las lineas de codigos ecenciales que necesitariamos tanto en Models como en Migrations para poder generar dichas relaciones. 
 
 
