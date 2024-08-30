@@ -1,4 +1,5 @@
 <p align="center"><a href="#"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="#"><img src="https://storeassets.im-cdn.com/products/5eecf0/8TNYavZ7SFaw2RTVbC1k_html5-css3-jquery_0x0_webp.png" width="400"></a></p>
 
 <p align="center"> 
 <h1> RELACIONES EN LARAVEL </h1> 
@@ -28,7 +29,7 @@ Se genero esta aplicacion con el sentido de poder colaborar de una forma mas rap
 <hr>
 <p align="center">
     <a href="#">
-        <img src="https://i.postimg.cc/67GK83q3/Captura-desde-2024-08-30-11-34-40.png">
+        <img src="https://i.postimg.cc/DzxwY4Kq/Captura-desde-2024-08-30-11-34-40.png">
     </a>
 </p>
   
