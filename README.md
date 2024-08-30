@@ -1,7 +1,7 @@
 <p align="center"><a href="#"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center"> 
-<h1> REELACIONES EN LARAVEL </h1> 
+<h1> RELACIONES EN LARAVEL </h1> 
 </p>
 ## SOBRE ESTE PROYECTO API REST FULL CON LARAVEL 
 Se genero esta aplicacion con el sentido de poder colaborar de una forma mas rapida en la generacion de relaciones entre tablas y modelos de laravel. A travez de ingresar en un muy sencillo formulario los datos de tablas y modelos involucrados y tambien definiendo el tipo de relacion que pretendemos, conseguiriamos las lineas de codigos ecenciales que necesitariamos tanto en Models como en Migrations para poder generar dichas relaciones. 
@@ -28,7 +28,7 @@ Se genero esta aplicacion con el sentido de poder colaborar de una forma mas rap
 <hr>
 <p align="center">
     <a href="#">
-        <img src="....">
+        <img src="https://i.postimg.cc/67GK83q3/Captura-desde-2024-08-30-11-34-40.png">
     </a>
 </p>
   
